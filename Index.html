@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@200&family=PT+Sans&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+     <title>Challenge 1: Encriptador</title>
+ </head>
+ <body>
+        <header>
+            <div> 
+                    <div class="logo">
+                        <img src="Media/ALURA LOGO.png" alt="logo alura y makoma dev">
+                    </div>
+                <h1 class="titulo">Challenge 1: Encriptador</h1>
+            </div>
+        </header>
+        <main>
+            <section class="left">
+                <textarea class="mensaje" cols="30" rows="10" placeholder="Ingrese su texto aquí"></textarea>
+                <div class="informacion">Solo letras minúsculas y sin acentos</div>
+                <div class="botones">
+                    <button class="btn-encrip" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desen" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="right">
+                <textarea class="mensaje-encrip" cols="20" rows="10" ></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopy()">Copiar</button>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer>
+            <img src="Media/MKM LOGO.png" alt="makoma dev" class="logomkm">
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/m4k0m4/" class="social"></a>
+                <a href="https://www.instagram.com/m4k0m4/" class="social"></a>
+                <a href="https://twitter.com/M4k0m4" class="social"></a>
+                <a href="https://github.com/M4k0m4" class="social"></a>
+            </div>
+            <ul class="footer-menu">
+                <li class="menu-items"> MakomaArt &copy, All rights reserved, 2023. </li>
+            </ul>
+           
+            
+        </footer>
+<script src="matriz.js"></script>
+ </body>
+</html>
