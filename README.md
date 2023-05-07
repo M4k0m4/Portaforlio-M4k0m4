@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/badge/HTML-EC6231?logo=html5&logoColor=FFFFFF&style=for-the-badge" />
     <img src="https://img.shields.io/badge/CSS-01A3D8?logo=css3&logoColor=FFFFFF&style=for-the-badge" />
     
-(https://user-images.githubusercontent.com/99281662/236595705-205a74c4-51c9-4460-b716-f195d60e9971.png)
+![Ejemplo](https://user-images.githubusercontent.com/99281662/236595705-205a74c4-51c9-4460-b716-f195d60e9971.png)
  <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
